@@ -3,3 +3,83 @@ body {
   font-family: 'Lato', sans-serif;
   color: #333;
 }
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #395462;
+}
+
+header .topNav {
+  overflow: hidden;
+  position: relative;
+}
+
+header h1 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 55px;
+  color: #cce0dd;
+  padding-left: 15px;
+}
+
+header .myLinks {
+  display: none;
+}
+
+header nav ul li {
+  list-style-type: none;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto Slab", sans-serif;
+  color: #cce0dd;
+}
+
+header nav ul li a:hover {
+  color: #701217;
+}
+
+header a.icon {
+  display: block;
+  position: absolute;
+  right: 0;
+  top: 0;
+  padding: 15px;
+  color: #cce0dd;
+}
+
+/* Greeting */
+#greeting {
+  border: 5px solid #395462;
+  padding: 20px;
+}
+
+#greeting p {
+  font-size: 20px;
+  line-height: 25px;
+}
+
+/* Current */
+#current {
+  border: 2px solid red;
+}
+
+#current h2 {
+  font-family: "Roboto Slab", sans-serif;
+  font-size: 45px;
+}
