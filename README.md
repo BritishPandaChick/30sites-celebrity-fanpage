@@ -5,8 +5,10 @@
 ## Instructions
 Clone repo or download zip file. Open index.html file in your browser to see website.
 
-## Contributions 
+## Contributions
 I will not be accepting any pull requests.
 
-## Acknowledgements 
+## Acknowledgements
 * 30 Days, 30 Sites
+* CSS Tricks
+* W3Schools blog 
