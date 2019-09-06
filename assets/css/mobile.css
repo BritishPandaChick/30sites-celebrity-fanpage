@@ -1,4 +1,3 @@
-/* https://colorpalettes.net/color-palette-3736/ */
 body {
   font-family: 'Lato', sans-serif;
   color: #333;
@@ -76,7 +75,7 @@ header a.icon {
 
 /* Current */
 #current {
-  border: 5px solid #395462;
+  border: 2px solid #395462;
   width: 100%;
 }
 
@@ -174,5 +173,43 @@ header a.icon {
 
 /* Upcoming */
 #upcoming {
-  border: 2px solid red;
+  width: 100%;
+}
+
+#upcoming h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 45px;
+  color: #395462;
+  text-align: center;
+}
+
+#upcoming h3 {
+  font-size: 35px;
+  font-family: "Roboto Slab", serif;
+}
+
+#upcoming p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* Footer */
+footer {
+  width: 100%;
+  background-color: #395462;
+}
+
+footer p {
+  font-size: 18px;
+  color: #cce0dd;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #cce0dd;
+  padding-left: 25px;
 }
