@@ -17,6 +17,11 @@ img {
   margin: 0 auto;
 }
 
+.third-width {
+  width: 30%;
+  float: left;
+}
+
 /* Header */
 header {
   background-color: #395462;
@@ -56,8 +61,7 @@ header a i {
 
 /* Greeting */
 #greeting {
-  width: 100%;
-  padding: 40px 0;
+  padding: 40px 15px;
 }
 
 #greeting p {
@@ -68,7 +72,7 @@ header a i {
 /* Current */
 #current {
   border: 2px solid #395462;
-  width: 100%;
+  padding: 20px;
 }
 
 #current h2 {
@@ -90,13 +94,13 @@ header a i {
 
 #current iframe {
   width: 100%;
-  height: 800px;
+  height: 500px;
 }
 
 /* Stream */
 #stream {
-  width: 100%;
   height: 850px;
+  padding: 20px;
 }
 
 #stream .half-width {
@@ -129,9 +133,8 @@ header a i {
 
 /* Latest */
 #latest {
-  width: 100%;
-  border: 2px solid red;
-  height: 30%;
+  height: 27%;
+  padding: 20px 40px;
 }
 
 #latest .half-width {
@@ -147,7 +150,7 @@ header a i {
 }
 
 #latest img {
-  width: 100%;
+  width: 80%;
 }
 
 #latest h3 {
@@ -158,6 +161,7 @@ header a i {
 #latest p {
   font-size: 20px;
   line-height: 27px;
+  padding-right: 20px;
 }
 
 #latest button {
@@ -168,4 +172,57 @@ header a i {
   padding: 15px;
   width: 50%;
   margin: 20px 15px;
+}
+
+/* Upcoming */
+#upcoming {
+  height: 700px;
+  padding: 20px 0;
+}
+
+#upcoming .third-width {
+  padding-left: 20px;
+}
+
+#upcoming h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 65px;
+  color: #395462;
+  text-align: center;
+}
+
+#upcoming h3 {
+  font-size: 55px;
+  font-family: "Roboto Slab", serif;
+}
+
+#upcoming p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* Footer */
+footer {
+  background-color: #395462;
+  width: 100%;
+}
+
+footer .half-width {
+  width: 50%;
+  float: left;
+}
+
+footer p {
+  font-size: 16px;
+  color: #cce0dd;
+}
+
+footer nav ul li {
+  display: inline-block;
+}
+
+footer nav ul li a {
+  text-decoration: none;
+  color: #cce0dd;
+  padding-left: 25px;
 }
