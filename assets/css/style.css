@@ -1,0 +1,171 @@
+body {
+  font-family: 'Lato', sans-serif;
+  color: #333;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+img {
+  max-width: 100%;
+}
+
+.full-width {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  background-color: #395462;
+  width: 100%;
+}
+
+header h1 {
+  font-family: "Roboto Slab", serif;
+  font-size: 75px;
+  color: #cce0dd;
+  text-align: center;
+}
+
+header nav {
+  text-align: center;
+}
+
+header nav ul li {
+  display: inline-block;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+  font-family: "Roboto Slab", serif;
+  color: #cce0dd;
+  padding-left: 40px;
+}
+
+header nav ul li a:hover {
+  color: #701217;
+}
+
+header a i {
+  visibility: hidden;
+}
+
+/* Greeting */
+#greeting {
+  width: 100%;
+  padding: 40px 0;
+}
+
+#greeting p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+/* Current */
+#current {
+  border: 2px solid #395462;
+  width: 100%;
+}
+
+#current h2 {
+  font-family: "Roboto Slab", serif;
+  font-size: 65px;
+  text-align: center;
+  color: #395462;
+}
+
+#current h3 {
+  font-size: 55px;
+  font-family: "Roboto Slab", serif;
+}
+
+#current p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#current iframe {
+  width: 100%;
+  height: 800px;
+}
+
+/* Stream */
+#stream {
+  width: 100%;
+  height: 850px;
+}
+
+#stream .half-width {
+  width: 50%;
+  float: left;
+}
+
+#stream h2 {
+  font-size: 65px;
+  font-family: "Roboto Slab", serif;
+  text-align: center;
+  color: #395462;
+}
+
+#stream h3 {
+  font-size: 55px;
+  font-family: "Roboto Slab", serif;
+}
+
+#stream p {
+  font-size: 20px;
+  line-height: 27px;
+  padding-right: 15px;
+}
+
+#stream iframe {
+  width: 90%;
+  height: 300px;
+}
+
+/* Latest */
+#latest {
+  width: 100%;
+  border: 2px solid red;
+  height: 30%;
+}
+
+#latest .half-width {
+  width: 50%;
+  float: left;
+}
+
+#latest h2 {
+  font-size: 65px;
+  font-family: "Roboto Slab", serif;
+  color: #395462;
+  text-align: center;
+}
+
+#latest img {
+  width: 100%;
+}
+
+#latest h3 {
+  font-size: 55px;
+  font-family: "Roboto Slab", serif;
+}
+
+#latest p {
+  font-size: 20px;
+  line-height: 27px;
+}
+
+#latest button {
+  background-color: #395462;
+  color: #cce0dd;
+  font-size: 20px;
+  font-family: 'Lato', sans-serif;
+  padding: 15px;
+  width: 50%;
+  margin: 20px 15px;
+}
