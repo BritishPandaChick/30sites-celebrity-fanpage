@@ -12,6 +12,7 @@ img {
   max-width: 100%;
 }
 
+/* Grid System */
 .full-width {
   width: 100%;
   margin: 0 auto;
@@ -48,7 +49,7 @@ header nav ul li a {
   font-size: 20px;
   font-family: "Roboto Slab", serif;
   color: #cce0dd;
-  padding-left: 40px;
+  padding-left: 25px;
 }
 
 header nav ul li a:hover {
@@ -62,6 +63,7 @@ header a i {
 /* Greeting */
 #greeting {
   padding: 40px 15px;
+  height: 150px;
 }
 
 #greeting p {
@@ -72,7 +74,7 @@ header a i {
 /* Current */
 #current {
   border: 2px solid #395462;
-  padding: 20px;
+  padding: 15px;
 }
 
 #current h2 {
@@ -100,7 +102,7 @@ header a i {
 /* Stream */
 #stream {
   height: 850px;
-  padding: 20px;
+  padding: 20px 15px;
 }
 
 #stream .half-width {
@@ -133,8 +135,8 @@ header a i {
 
 /* Latest */
 #latest {
-  height: 27%;
-  padding: 20px 40px;
+  height: 987px;
+  padding: 20px;
 }
 
 #latest .half-width {
@@ -225,4 +227,8 @@ footer nav ul li a {
   text-decoration: none;
   color: #cce0dd;
   padding-left: 25px;
+}
+
+footer nav ul li a:hover {
+  color:#701217;
 }
