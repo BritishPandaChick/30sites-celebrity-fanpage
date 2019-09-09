@@ -33,9 +33,10 @@ header h1 {
   font-size: 55px;
   color: #cce0dd;
   padding-left: 15px;
+  text-align: center
 }
 
-header .myLinks {
+header .navLinks {
   display: none;
 }
 
